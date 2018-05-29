@@ -250,8 +250,8 @@ a:focus, a:hover{
 .button-label{
   height: 19px; 
   color: #FFFFFF; 
-  font-family: Karmilla; 
-  font-size: 16px;  
+  font-family: "Open Sans"; 
+  font-size: 15px;  
   font-weight: bold;
 
   line-height: 48px;  
@@ -797,7 +797,7 @@ a:focus, a:hover{
 }
 
 .links{
-  font-family: 'Geomanist';
+  font-weight: 600;
 }
 
 .no{
@@ -833,72 +833,30 @@ a:focus, a:hover{
   color: #e4e4e4 !important;
 }
 
-#twitter{
-  content: url('../icons/twitter.png');
+.fa-twitter:hover {
+  color: #1da1f2;
 }
 
-#twitter:hover {
-    content: url('../icons/twitter_w.png');
+.fa-facebook:hover{
+  color: #3b5998
 }
 
-#facebook{
-  content: url('../icons/facebook.png');
+.fa-linkedin:hover {
+  color: #0077b5;
 }
 
-#facebook:hover {
-    content: url('../icons/facebook_w.png');
+.fa-btc:hover {
+  color: #FF9900;
 }
 
-#bitcoin{
-  content: url('../icons/bitcoin.png');
+.fa-reddit:hover {
+  color: #ff4500;
 }
 
-#bitcoin:hover {
-    content: url('../icons/bitcoin_w.png');
+.fa-github:hover {
+  color: #4078c0;
 }
 
-#reddit{
-  content: url('../icons/reddit.png');
-}
-
-#reddit:hover {
-    content: url('../icons/reddit_w.png');
-}
-
-#linkedin{
-  content: url('../icons/linkedin.png');
-}
-
-#linkedin:hover {
-    content: url('../icons/linkedin_w.png');
-}
-
-#github{
-  content: url('../icons/github.png');
-}
-
-#github:hover {
-    content: url('../icons/github_w.png');
-}
-
-#telegram{
-  content: url('../icons/telegram.png');
-}
-
-#telegram:hover {
-    content: url('../icons/telegram_w.png');
-}
-#wechat{
-  content: url('../icons/wechat.png');
-}
-
-#wechat:hover {
-    content: url('../icons/wechat_w.png');
-}
-#medium{
-  content: url('../icons/medium.png');
-}
-
-#medium:hover {
-    content: url('../icons/medium_w.png');
+.fa-wechat:hover {
+  color: #7bb32e;
 }
